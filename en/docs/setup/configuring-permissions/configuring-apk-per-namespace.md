@@ -9,7 +9,7 @@ You can do so by following the steps below.
 kubectl create namespace apk
 ```
 
-2. Download the Custom Resource Definitions (CRDs) file from [this link](../../assets/files/configure-permissions/crds.yaml) and install it in your Kubernetes cluster using the following command:
+2. Download the folder containing the Custom Resource Definitions (CRDs) files from [this link](../../assets/files/configure-permissions/crds.zip), unzip it and install it in your Kubernetes cluster using the following command:
 ```bash
 kubectl apply -f crds.yaml
 ```
